@@ -201,10 +201,10 @@
 	
 					<label for="question1">你住在學校的哪個宿舍？</label>
 					<select id="question1" name="question1">
-						<option value="red">N棟</option>
-						<option value="blue">M棟</option>
-						<option value="green">B棟</option>
-						<option value="yellow">H宿</option>
+						<option value="N棟">N棟</option>
+						<option value="M棟">M棟</option>
+						<option value="B棟">B棟</option>
+						<option value="H宿">H宿</option>
 					</select>
 					<br><br>
 	
@@ -265,7 +265,7 @@
 				const socialMedia = document.getElementById('question3').value;
 	
 				if (name && favoriteColor && favoriteSport && socialMedia) {
-					alert(`問卷提交成功！\n姓名：${name}\n最喜歡的顏色：${favoriteColor}\n喜歡的運動：${favoriteSport}\n社交平台：${socialMedia}`);
+					alert(`問卷提交成功！\n姓名：${name}\n住在學校的哪個宿舍：${favoriteColor}\n學系是什麼：${favoriteSport}\n對學校的看法：${socialMedia}`);
 				} else {
 					alert('請填寫完整的問卷！');
 				}
